@@ -49,7 +49,7 @@ namespace CardsApi.Authentication
 
             if (user == null)
             {
-                return AuthenticateResult.Fail("Invalid Username or Password");
+                return AuthenticateResult.Fail("Invalid Mail address or Password");
             }
 
             var claims = new[] 
